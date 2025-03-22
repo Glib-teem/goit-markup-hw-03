@@ -176,12 +176,13 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
 }
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
   text-align: center;
+}
+.features-item:first-child {
+  width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
   position: absolute;
@@ -245,6 +246,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-member-position {
