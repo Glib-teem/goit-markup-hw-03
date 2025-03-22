@@ -177,7 +177,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.features-item {
+.feature-item {
   flex-basis: calc((100% - 72px) / 4);
   text-align: center;
 }
